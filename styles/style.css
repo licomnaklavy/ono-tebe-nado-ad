@@ -67,7 +67,7 @@ header {
     justify-content: space-between;
     color: #fff;
     width: 100%;
-    min-height: 757px;
+    height: 757px;
     background-image: url(/images/cover.jpg);
     background-size: cover;
     padding-top: 165px;
