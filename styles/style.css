@@ -217,7 +217,7 @@ header {
     letter-spacing: 0%;
 }
 
-.card_type_film, .card_type_book, .card_type_picture{
+.card_type_film, .card_type_book, .card_type_picture {
     position: absolute;
     top: 0;
     left: 0;
@@ -297,10 +297,6 @@ footer {
     text-align: center;
 }
 
-.footer__menu-list-item {
-
-}
-
 .footer__menu-link_active {
     text-decoration: none;
 }
@@ -316,14 +312,6 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 20px;
-}
-
-.footer__social-list-item {
-
-}
-
-.footer__social-link {
-
 }
 
 .footer__social-icon {
