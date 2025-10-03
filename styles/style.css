@@ -66,6 +66,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     color: #fff;
+    height: 757px;
     width: 100%;
     background-image: url(/images/cover.jpg);
     background-size: cover;
@@ -96,7 +97,7 @@ header {
     font-weight: 700;
     letter-spacing: 30px;
     padding: 0 50px;
-    gap: 20px;
+    gap: 10px;
 }
 
 .aligned-text_left {
@@ -112,20 +113,17 @@ header {
 }
 
 .cover__description {
-    padding: 0 50px 50px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    font-size: 22px;
-    line-height: 1.27;
-    word-spacing: 18px;
+    padding: 0 50px 40px 50px;
 }
 
 .cover__description-text {
     text-transform: uppercase;
-    word-spacing: 30px;
+    word-spacing: 18px;
     font-size: 22px;
     font-weight: 400;
     z-index: 2;
@@ -140,7 +138,6 @@ header {
     font-size: 22px;
     font-weight: 400;
     z-index: 2;
-    align-self: ;
 }
 
 /* lots */
@@ -277,7 +274,7 @@ header {
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
-    padding: 180px 50px 50px 92px;
+    padding: 180px 50px 90px 50px;
 }
 
 .footer__address {
@@ -315,5 +312,5 @@ footer {
 }
 
 .footer__social-icon {
-    width: 36px;
+    width: 54px;
 }
